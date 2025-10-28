@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     // Tinh so tien thue thu nhap phai dong
-    float salary, tax_rate,tax;
+    float salary,tax_rate,tax;
     printf("So tien: ");
     scanf("%2f", &salary);
     if(0 < salary && salary <= 5) {
